@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="J7z-ol-X7T">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--最新揭晓-->
+        <scene sceneID="eDO-aM-mzw">
+            <objects>
+                <navigationController id="J7z-ol-X7T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="最新揭晓" image="tabbar_secondItem" selectedImage="tabbar_secondItem_selected" id="dOp-vH-un1"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IMZ-6G-ghm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yfD-Lu-kiW" kind="relationship" relationship="rootViewController" id="hvd-5G-wLD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nAh-Uf-8kb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-999" y="-1391"/>
+        </scene>
+        <!--最新揭晓-->
+        <scene sceneID="Fcn-Wh-Ew2">
+            <objects>
+                <viewController id="yfD-Lu-kiW" customClass="PublicViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DHd-Mm-uKk"/>
+                        <viewControllerLayoutGuide type="bottom" id="7xe-RI-Ieg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lZM-rh-sy1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="VFK-Ri-ABy"/>
+                    <navigationItem key="navigationItem" title="最新揭晓" id="vHr-fK-Jmw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m4c-d8-wzp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178" y="-1420"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_secondItem" width="25" height="25"/>
+        <image name="tabbar_secondItem_selected" width="25" height="25"/>
+    </resources>
+</document>

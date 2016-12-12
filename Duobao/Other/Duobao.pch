@@ -1,0 +1,32 @@
+//
+//  Duobao.pch
+//  Duobao
+//
+//  Created by Tb on 2016/12/8.
+//  Copyright © 2016年 Tb. All rights reserved.
+//
+
+#ifndef Duobao_pch
+#define Duobao_pch
+
+#import "UIView+XMGExtension.h"
+
+#ifdef DEBUG
+#define DuobaoLog(format, ...) printf("[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define DuobaoLog(format, ...)
+#endif
+
+#define DuobaoLogFunc DoubaoLog(@"%s", __func__)
+
+#define DuobaoRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define DuobaoGlobalBg DuobaoRGBColor(232, 232, 232)
+
+#define DuobaoTagBg DuobaoRGBColor(74, 139, 209)
+
+#define DuobaoScreenW [UIScreen mainScreen].bounds.size.width
+#define DuobaoScreenH [UIScreen mainScreen].bounds.size.height
+
+
+#endif /* Duobao_pch */
