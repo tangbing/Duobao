@@ -27,7 +27,6 @@
 		33177A121DF99ABA003441AC /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33177A111DF99ABA003441AC /* HomeHeaderView.m */; };
 		33177A141DF99AC7003441AC /* HomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33177A131DF99AC7003441AC /* HomeHeaderView.xib */; };
 		33177A171DF9A189003441AC /* TbVerticaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33177A161DF9A189003441AC /* TbVerticaButton.m */; };
-		3318A0311DFC058900112012 /* result.m in Sources */ = {isa = PBXBuildFile; fileRef = 3318A0301DFC058900112012 /* result.m */; };
 		3318A0371DFC43B000112012 /* DuobaoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3318A0351DFC43B000112012 /* DuobaoCollectionViewCell.m */; };
 		3318A0381DFC43B000112012 /* DuobaoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3318A0361DFC43B000112012 /* DuobaoCollectionViewCell.xib */; };
 		3318A03B1DFC60E400112012 /* CollectionHeaderVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 3318A03A1DFC60E400112012 /* CollectionHeaderVIew.m */; };
@@ -103,9 +102,6 @@
 		334A83681DFA4CF500E946CA /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 334A83491DFA4CF500E946CA /* UIView+MJExtension.m */; };
 		334A83691DFA4CF500E946CA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 334A834A1DFA4CF500E946CA /* README.md */; };
 		334A836E1DFA531100E946CA /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 334A836D1DFA531100E946CA /* Foundation+Log.m */; };
-		334A83711DFA53B200E946CA /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = 334A83701DFA53B200E946CA /* list.m */; };
-		334A83741DFA53C700E946CA /* gpic.m in Sources */ = {isa = PBXBuildFile; fileRef = 334A83731DFA53C700E946CA /* gpic.m */; };
-		334A83771DFA577200E946CA /* goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 334A83761DFA577200E946CA /* goods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,8 +158,6 @@
 		33177A131DF99AC7003441AC /* HomeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeHeaderView.xib; sourceTree = "<group>"; };
 		33177A151DF9A189003441AC /* TbVerticaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbVerticaButton.h; sourceTree = "<group>"; };
 		33177A161DF9A189003441AC /* TbVerticaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbVerticaButton.m; sourceTree = "<group>"; };
-		3318A02F1DFC058900112012 /* result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = result.h; sourceTree = "<group>"; };
-		3318A0301DFC058900112012 /* result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = result.m; sourceTree = "<group>"; };
 		3318A0341DFC43B000112012 /* DuobaoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuobaoCollectionViewCell.h; sourceTree = "<group>"; };
 		3318A0351DFC43B000112012 /* DuobaoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuobaoCollectionViewCell.m; sourceTree = "<group>"; };
 		3318A0361DFC43B000112012 /* DuobaoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DuobaoCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -305,12 +299,6 @@
 		334A83491DFA4CF500E946CA /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		334A834A1DFA4CF500E946CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		334A836D1DFA531100E946CA /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
-		334A836F1DFA53B200E946CA /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
-		334A83701DFA53B200E946CA /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = list.m; sourceTree = "<group>"; };
-		334A83721DFA53C700E946CA /* gpic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpic.h; sourceTree = "<group>"; };
-		334A83731DFA53C700E946CA /* gpic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gpic.m; sourceTree = "<group>"; };
-		334A83751DFA577200E946CA /* goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goods.h; sourceTree = "<group>"; };
-		334A83761DFA577200E946CA /* goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -765,14 +753,6 @@
 		334A836C1DFA500400E946CA /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-				334A836F1DFA53B200E946CA /* list.h */,
-				334A83701DFA53B200E946CA /* list.m */,
-				334A83721DFA53C700E946CA /* gpic.h */,
-				334A83731DFA53C700E946CA /* gpic.m */,
-				334A83751DFA577200E946CA /* goods.h */,
-				334A83761DFA577200E946CA /* goods.m */,
-				3318A02F1DFC058900112012 /* result.h */,
-				3318A0301DFC058900112012 /* result.m */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -943,7 +923,6 @@
 				334A835E1DFA4CF500E946CA /* MJRefreshBackGifFooter.m in Sources */,
 				331779FE1DF99055003441AC /* ProfileViewController.m in Sources */,
 				334A834F1DFA4CF500E946CA /* MJType.m in Sources */,
-				334A83771DFA577200E946CA /* goods.m in Sources */,
 				334A83501DFA4CF500E946CA /* NSObject+MJCoding.m in Sources */,
 				334A82FC1DFA4CE200E946CA /* SDWebImageDownloader.m in Sources */,
 				334A835B1DFA4CF500E946CA /* MJRefreshAutoGifFooter.m in Sources */,
@@ -951,12 +930,10 @@
 				33177A121DF99ABA003441AC /* HomeHeaderView.m in Sources */,
 				334A82C31DFA4CCD00E946CA /* UIImageView+AFNetworking.m in Sources */,
 				334A83651DFA4CF500E946CA /* MJRefreshConst.m in Sources */,
-				334A83741DFA53C700E946CA /* gpic.m in Sources */,
 				334A83561DFA4CF500E946CA /* MJRefreshAutoFooter.m in Sources */,
 				334A836E1DFA531100E946CA /* Foundation+Log.m in Sources */,
 				334A82C41DFA4CCD00E946CA /* UIProgressView+AFNetworking.m in Sources */,
 				334A82FB1DFA4CE200E946CA /* SDWebImageDecoder.m in Sources */,
-				334A83711DFA53B200E946CA /* list.m in Sources */,
 				334A82FE1DFA4CE200E946CA /* SDWebImageManager.m in Sources */,
 				334A82D11DFA4CD700E946CA /* README.md in Sources */,
 				334A83531DFA4CF500E946CA /* NSString+MJExtension.m in Sources */,
@@ -991,7 +968,6 @@
 				334A82B71DFA4CCD00E946CA /* AFNetworkReachabilityManager.m in Sources */,
 				334A834D1DFA4CF500E946CA /* MJFoundation.m in Sources */,
 				33177A0A1DF99078003441AC /* DoubaoViewController.m in Sources */,
-				3318A0311DFC058900112012 /* result.m in Sources */,
 				334A83601DFA4CF500E946CA /* MJRefreshBackStateFooter.m in Sources */,
 				334A834C1DFA4CF500E946CA /* MJExtensionConst.m in Sources */,
 				334A82C61DFA4CCD00E946CA /* UIWebView+AFNetworking.m in Sources */,
