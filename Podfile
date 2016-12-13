@@ -6,6 +6,7 @@ target 'Duobao' do
 pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'SVProgressHUD'
-
+pod 'MJRefresh'
+pod 'Masonry'
 
 end
